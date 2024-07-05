@@ -1,0 +1,9 @@
+**/*.env
+node_modules/
+frontend/dist/
+frontend/pnpm-lock.yaml
+ssl/
+backend/ssl/
+log/
+**/*.DS_Store
+**/tmp/
