@@ -4,7 +4,9 @@
 
 ## launch local
 
-`cd frontend && pnpm run dev`
+`cd frontend`
+`pnpm install`
+`pnpm run dev`
 
 ## docker
 
