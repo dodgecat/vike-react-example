@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eo pipefail
 
-echo "exec client."
+echo "exec web server"
 export PORT=8080
 envsubst '\$PORT' < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;' &
 
