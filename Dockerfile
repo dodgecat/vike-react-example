@@ -10,6 +10,5 @@ RUN pnpm install
 RUN pnpm run build
 ENV NODE_ENV="production"
 ENV APP_PORT="8080"
-RUN pnpm i -g ts-node
 
 CMD ["pnpx", "tsx", "server/server.ts"]
